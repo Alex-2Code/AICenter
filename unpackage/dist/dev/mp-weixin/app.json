@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/ImageTechnology/ImageTechnology",
+    "pages/FaceAndHuman/FaceAndHuman",
+    "pages/VoiceTechnology/VoiceTechnology",
+    "pages/Knowledge/Knowledge",
+    "pages/ImageTechnology/IDCard/IDCard",
+    "pages/ImageTechnology/IDCard/IDCardA",
+    "pages/index/test1"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#909399",
+    "selectedColor": "#6415FF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/ImageTechnology/ImageTechnology",
+        "iconPath": "static/icon/image.png",
+        "selectedIconPath": "static/icon/image-active.png",
+        "text": "图像技术"
+      },
+      {
+        "pagePath": "pages/FaceAndHuman/FaceAndHuman",
+        "iconPath": "static/icon/face.png",
+        "selectedIconPath": "static/icon/face-active.png",
+        "text": "人脸与人体"
+      },
+      {
+        "pagePath": "pages/VoiceTechnology/VoiceTechnology",
+        "iconPath": "static/icon/voice.png",
+        "selectedIconPath": "static/icon/voice-active.png",
+        "text": "语音技术"
+      },
+      {
+        "pagePath": "pages/Knowledge/Knowledge",
+        "iconPath": "static/icon/knowledge.png",
+        "selectedIconPath": "static/icon/knowledge-active.png",
+        "text": "知识与语义"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

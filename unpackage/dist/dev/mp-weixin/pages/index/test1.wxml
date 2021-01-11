@@ -1,0 +1,1 @@
+<view><u-button bind:click="__e" vue-id="8f494aa6-1" data-event-opts="{{[['^click',[['choose']]]]}}" bind:__l="__l" vue-slots="{{['default']}}">选取文件</u-button><u-button vue-id="8f494aa6-2" bind:__l="__l" vue-slots="{{['default']}}">提交文件</u-button></view>
